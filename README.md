@@ -17,7 +17,7 @@ Microsoft Evaluation Center
 
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/445cc667880f57c668475ec1b0109a3539169f55/Windows%20Server%202022/Select%20Windows%20Server%202025%20Download%20.png">
 
-<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/532ec510a6e15d0602b672d3dc1b51ddcf660fec/Windows%20Server%202022/Windows%20server%202025%201-1.png">
+
 
 ## 🖥️ Step 2 | Create Windows Server 2025 Virtual Machine
 
@@ -33,3 +33,5 @@ Windows 2022 (64 bit)
 
 🛠️ VM Name:
 WinServer25
+<img width="1000" alt="image" src="">
+
