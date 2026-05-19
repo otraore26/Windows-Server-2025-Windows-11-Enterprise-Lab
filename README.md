@@ -33,5 +33,6 @@ Windows 2022 (64 bit)
 
 🛠️ VM Name:
 WinServer25
-<img width="1000" alt="image" src="">
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/a930b6e0e35736c0fc96b2f7d25150acdc5be909/Windows%20Server%202022/Step%202%20Installing%20Winserver%2025%20on%20VM.png">
 
