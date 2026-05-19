@@ -19,4 +19,17 @@ Microsoft Evaluation Center
 
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/532ec510a6e15d0602b672d3dc1b51ddcf660fec/Windows%20Server%202022/Windows%20server%202025%201-1.png">
 
+## 🖥️ Step 2 | Create Windows Server 2025 Virtual Machine
 
+Created a new virtual machine in Oracle VirtualBox.
+
+Configuration:
+
+🛠️ Operating System:
+Microsoft Windows
+
+🛠️ Version:
+Windows 2022 (64 bit)
+
+🛠️ VM Name:
+WinServer25
