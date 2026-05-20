@@ -56,6 +56,8 @@ Optional depending on setup
 This step ensured the virtual machine had enough resources to run enterprise services efficiently.
 
 
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/76a4f944c5b61046062a1fbb48fb8a87a1951c8c/Windows%20Server%202022/Step%203%20Set%20up%20Hardaware.png">
+
 
 
 ##
