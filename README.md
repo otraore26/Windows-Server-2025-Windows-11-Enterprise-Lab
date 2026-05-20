@@ -93,5 +93,28 @@ The installation process included:
 
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/074c6911b3311a039075dce2b857f5f9a3ff7b69/Windows%20Server%202022/Step%206%20Ready%20to%20install%20on%20the%20VM.png">
 
+## 🖧 Step 6 | Configure Server Manager
+
+After installation, opened Server Manager to begin configuring enterprise services.
+
+Verified:
+✅ Local Server
+✅ Server Roles
+✅ Initial System Health
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/9c19d485498d23007dbd4c1094fb9d71d5f43260/Windows%20Server%202022/Step%207%20Inside%20Win%20server%202025.png"> 
 
 
+## 🔐 Step 7 | Install Active Directory Domain Services
+
+Installed:
+✅ Active Directory Domain Services (AD DS)
+
+Included management tools:
+✅ Group Policy Management
+✅ AD DS Administrative Center
+✅ PowerShell Tools
+
+This prepares the server to become a Domain Controller.
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/9c19d485498d23007dbd4c1094fb9d71d5f43260/Windows%20Server%202022/Step%2011%20Adding%20different%20features%20.png">
