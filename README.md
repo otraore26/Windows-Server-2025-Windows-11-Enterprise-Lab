@@ -36,6 +36,28 @@ WinServer25
 
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/a930b6e0e35736c0fc96b2f7d25150acdc5be909/Windows%20Server%202022/Step%202%20Installing%20Winserver%2025%20on%20VM.png">
 
+
+
+## ⚙️ Step 3 | Configure Hardware Resources
+
+Allocated system resources for the virtual machine.
+
+Hardware Configuration:
+
+💾 Memory:
+5120 MB RAM
+
+🧠 Processors:
+4 CPUs
+
+🖥️ EFI Enabled:
+Optional depending on setup
+
+This step ensured the virtual machine had enough resources to run enterprise services efficiently.
+
+
+
+
 ##
 
 ## 💽 Step 4 | Configure Virtual Disk
@@ -54,4 +76,6 @@ This provides enough storage for:
 ✅ Windows Server
 ✅ Active Directory
 ✅ Future security tools and labs
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/52c60fd32dfa386d9e2d5c483843d8f67e0690ee/Windows%20Server%202022/Step%204%20Increasing%20the%20virtual%20disk.png">
 
