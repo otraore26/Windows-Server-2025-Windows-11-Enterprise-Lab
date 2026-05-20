@@ -81,3 +81,17 @@ This provides enough storage for:
 
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/52c60fd32dfa386d9e2d5c483843d8f67e0690ee/Windows%20Server%202022/Step%204%20Increasing%20the%20virtual%20disk.png">
 
+## 🪟 Step 5 | Install Windows Server 2025
+
+Installed:
+Windows Server 2025 Standard Evaluation Desktop Experience
+
+The installation process included:
+✅ System setup
+✅ Initial configuration
+✅ Administrator password creation
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/074c6911b3311a039075dce2b857f5f9a3ff7b69/Windows%20Server%202022/Step%206%20Ready%20to%20install%20on%20the%20VM.png">
+
+
+
