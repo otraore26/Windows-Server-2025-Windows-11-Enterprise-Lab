@@ -118,3 +118,41 @@ Included management tools:
 This prepares the server to become a Domain Controller.
 
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/9c19d485498d23007dbd4c1094fb9d71d5f43260/Windows%20Server%202022/Step%2011%20Adding%20different%20features%20.png">
+
+##
+## 🌐 Step 8 | Configure Domain Controller
+
+Configured:
+✅ New Forest
+✅ Root Domain
+✅ DNS Services
+
+Functional Levels:
+
+Windows Server 2025
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/acf0b487fb5368cafd7a1589b3cd535ba2c9b414/Windows%20Server%202022/Step%2012%20Set%20up%20passworf%20for%20Directory%20Service%20Restore%20Mode.png">
+
+##
+
+## 🔑 Step 9 | Configure DSRM Password
+
+Configured the:
+Directory Services Restore Mode (DSRM) password
+
+Purpose:
+The DSRM password is used for:
+✅ Active Directory recovery
+✅ Domain controller maintenance
+✅ Disaster recovery operations
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/acf0b487fb5368cafd7a1589b3cd535ba2c9b414/Windows%20Server%202022/Step%2013%20This%20is%20when%20we%20are%20creating%20a%20new%20domain%20forest%20.png">
+
+## 🧠 Step 10 | Configure NetBIOS Name
+
+Configured the NetBIOS domain name for proper domain identification inside the network environment.
+
+Example:
+TMS
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/50ad4ad8fc6762f52924ad29c7299bc5e71861ad/Windows%20Server%202022/Step%20100%20NetBios.png">
+
