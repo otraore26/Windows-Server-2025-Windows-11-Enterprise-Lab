@@ -58,10 +58,10 @@ This lab helped reinforce how critical DNS is within Active Directory environmen
 | DNS Services | Internal hostname resolution |
 
 ---
-
+##
 ## 🏗️ Lab Architecture
 
-```text
+
                     ┌─────────────────────────┐
                     │ Windows Server 2025     │
                     │ Domain Controller       │
@@ -77,3 +77,16 @@ This lab helped reinforce how critical DNS is within Active Directory environmen
                     │ Domain Joined Client    │
                     │ DNS → 10.0.0.129        │
                     └─────────────────────────┘
+
+
+---
+
+## 🌐 Configure DNS on Windows 11
+
+Step 1 — Open Network & Internet Settings
+
+Navigate to:
+
+Settings → Network & Internet → Ethernet
+
+This step allows the Windows 11 client workstation to access Ethernet configuration settings before joining the Active Directory domain.
