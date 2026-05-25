@@ -227,5 +227,31 @@ Password Policies
 
 
 
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/d9337528a25c7769348b19cd05334e394d56570a/Join%20Win11%20to%20Win25server%20domain/Users%20and%20Computers.png"> 
+
+---
+
+## Step 12 — Create Additional Domain Users
+
+Additional enterprise user profiles were created to simulate a real-world corporate Active Directory environment with multiple users.
+
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/d9337528a25c7769348b19cd05334e394d56570a/Join%20Win11%20to%20Win25server%20domain/User's%20Ali%20information.png"> 
+
+---
+
+## Step 13 — Enforce Password Change at First Login
+
+The security policy:
+
+User must change password at next logon
+
+was enabled to enforce secure enterprise password management practices.
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/d9337528a25c7769348b19cd05334e394d56570a/Join%20Win11%20to%20Win25server%20domain/User's%20Idi%20Password.png"> 
+
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/d9337528a25c7769348b19cd05334e394d56570a/Join%20Win11%20to%20Win25server%20domain/User's%20Credential%20for%20Idi.png">
+
 
 
