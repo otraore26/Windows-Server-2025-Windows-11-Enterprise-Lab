@@ -90,3 +90,55 @@ Navigate to:
 Settings → Network & Internet → Ethernet
 
 This step allows the Windows 11 client workstation to access Ethernet configuration settings before joining the Active Directory domain.
+
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/97aef22aa1bcc24e1095c5327d2cd063ec6ae89f/Join%20Win11%20to%20Win25server%20domain/Step%201%20go%20to%20the%20setting%20then%20go%20to%20Network%20and%20Internet%20and%20then%20click%20on%20ethernet%20.png">
+
+---
+## Step 2 — Open Ethernet Properties
+
+Inside the Ethernet configuration page, review the active network profile and scroll down to locate the DNS server assignment section.
+
+The workstation must communicate directly with the Domain Controller DNS service for successful domain authentication.
+
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/97aef22aa1bcc24e1095c5327d2cd063ec6ae89f/Join%20Win11%20to%20Win25server%20domain/Step%202%20Select%20Public%20Recommend%20scrow%20down%20to%20edit%20DNS%20ssrver%20assigmnent.png">
+
+---
+
+### Step 3 — Configure DNS Settings Manually
+
+Select:
+
+Edit DNS Settings → Manual
+
+Enable IPv4 configuration to manually assign the Domain Controller DNS server.
+
+
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/97aef22aa1bcc24e1095c5327d2cd063ec6ae89f/Join%20Win11%20to%20Win25server%20domain/Step%203select%20manual%20and%20set%20IPV4.png">
+
+### Step 4 — Configure Preferred DNS Server
+---
+Set the Preferred DNS Server to the IP address of the Windows Server 2025 Domain Controller:
+
+10.0.0.xxx
+
+This configuration allows the Windows 11 client to locate the Active Directory services and authenticate against the domain.
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/97aef22aa1bcc24e1095c5327d2cd063ec6ae89f/Join%20Win11%20to%20Win25server%20domain/Step%204%20%20Put%20IPV4%20on%20and%20fill%20out%20the%20preferred%20DNS%20with%20your%20active%20directory%20IPV4.png">
+---
+## Step 5 — Save DNS Configuration
+
+After entering the DNS server information, click:
+
+Save
+
+to apply the network configuration changes.
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/97aef22aa1bcc24e1095c5327d2cd063ec6ae89f/Join%20Win11%20to%20Win25server%20domain/Step%205%20set%20up%20and%20save%20it%20.png">
+
+---
+
+
+
