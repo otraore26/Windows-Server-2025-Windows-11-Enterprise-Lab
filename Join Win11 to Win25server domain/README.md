@@ -260,6 +260,21 @@ Step 14 — Test Domain User Login
 
 The newly created Active Directory domain user successfully authenticated into the Windows 11 workstation using enterprise credentials.
 
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/70828d873acec0a66d24a9464862345a1f650779/Join%20Win11%20to%20Win25server%20domain/User%20was%20able%20to%20login.png">
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/70828d873acec0a66d24a9464862345a1f650779/Join%20Win11%20to%20Win25server%20domain/User%20must%20put%20a%20new%20password.png">
+
+
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/dc9d308b651276967d72f0c58c6a1d227c7cbae7/Join%20Win11%20to%20Win25server%20domain/User's%20password%20must%20be%20changed%20for%20Ali.png"> 
+
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/70828d873acec0a66d24a9464862345a1f650779/Join%20Win11%20to%20Win25server%20domain/Your%20password%20has%20been%20changed.png"> 
+
+
+
+---
+
+
 
 
