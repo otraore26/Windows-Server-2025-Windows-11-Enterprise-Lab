@@ -253,5 +253,13 @@ was enabled to enforce secure enterprise password management practices.
 
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/d9337528a25c7769348b19cd05334e394d56570a/Join%20Win11%20to%20Win25server%20domain/User's%20Credential%20for%20Idi.png">
 
+---
+
+### 🔑 Domain User Authentication Testing
+Step 14 — Test Domain User Login
+
+The newly created Active Directory domain user successfully authenticated into the Windows 11 workstation using enterprise credentials.
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/dc9d308b651276967d72f0c58c6a1d227c7cbae7/Join%20Win11%20to%20Win25server%20domain/User's%20password%20must%20be%20changed%20for%20Ali.png"> 
 
 
