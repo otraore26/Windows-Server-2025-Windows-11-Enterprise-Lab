@@ -119,7 +119,7 @@ Enable IPv4 configuration to manually assign the Domain Controller DNS server.
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/97aef22aa1bcc24e1095c5327d2cd063ec6ae89f/Join%20Win11%20to%20Win25server%20domain/Step%203select%20manual%20and%20set%20IPV4.png">
 
 ### Step 4 — Configure Preferred DNS Server
----
+
 Set the Preferred DNS Server to the IP address of the Windows Server 2025 Domain Controller:
 
 10.0.0.xxx
@@ -127,8 +127,10 @@ Set the Preferred DNS Server to the IP address of the Windows Server 2025 Domain
 This configuration allows the Windows 11 client to locate the Active Directory services and authenticate against the domain.
 
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/97aef22aa1bcc24e1095c5327d2cd063ec6ae89f/Join%20Win11%20to%20Win25server%20domain/Step%204%20%20Put%20IPV4%20on%20and%20fill%20out%20the%20preferred%20DNS%20with%20your%20active%20directory%20IPV4.png">
+
 ---
-## Step 5 — Save DNS Configuration
+
+ ### Step 5 — Save DNS Configuration
 
 After entering the DNS server information, click:
 
@@ -139,6 +141,91 @@ to apply the network configuration changes.
 <img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/97aef22aa1bcc24e1095c5327d2cd063ec6ae89f/Join%20Win11%20to%20Win25server%20domain/Step%205%20set%20up%20and%20save%20it%20.png">
 
 ---
+### Step 6 — Verify DNS Configuration
+
+Verify that:
+
+DNS Assignment = Manual
+IPv4 DNS Server = 10.0.0.129
+
+This confirms that the workstation is using the Domain Controller as its primary DNS server.
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/5e46e3dbcd63a49596f75ea9270a4f4ea7e19e88/Join%20Win11%20to%20Win25server%20domain/Step%206.png">
+
+---
+
+### Step 7 — Validate Network Connectivity
+
+Open:
+
+Control Panel → Network and Sharing Center
+
+Verify successful IPv4 connectivity and Ethernet communication between the client workstation and the server infrastructure.
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/5e46e3dbcd63a49596f75ea9270a4f4ea7e19e88/Join%20Win11%20to%20Win25server%20domain/Step%207%20go%20to%20Panel%20then%20go%20to%20the%20network%20and%20sharing%20.png">
+
+---
+
+### 🏢 Join Windows 11 to the Active Directory Domain
+Step 8 — Configure Domain Membership
+
+Navigate to:
+
+System → About → Domain or Workgroup
+
+Select:
+
+Change → Domain
+
+Enter the enterprise domain name:
+
+tms.com
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/5e46e3dbcd63a49596f75ea9270a4f4ea7e19e88/Join%20Win11%20to%20Win25server%20domain/Step%208%20go%20to%20the%20System%20and%20Then%20scrow%20down%20and%20select%20domain%20names%20And%20choose%20computer%20name%20and%20domain%20.png">
+
+---
+### Step 9 — Authenticate Using Domain Administrator Credentials
+
+Provide Domain Administrator credentials with permission to join systems to the Active Directory environment.
+
+This operation securely authenticates the Windows 11 workstation against the Domain Controller.
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/5e46e3dbcd63a49596f75ea9270a4f4ea7e19e88/Join%20Win11%20to%20Win25server%20domain/Step%209%20put%20admin%20credential%20%20And%20password.png">
+
+---
+
+### Step 10 — Successful Domain Join
+
+Windows 11 successfully joined the:
+
+tms.com
+
+Active Directory domain.
+
+A system reboot is required to finalize domain enrollment and apply enterprise policies.
+
+<img width="1000" alt="image" src="https://github.com/otraore26/Windows-Server-2025-Windows-11-Enterprise-Lab/blob/5e46e3dbcd63a49596f75ea9270a4f4ea7e19e88/Join%20Win11%20to%20Win25server%20domain/Step%2010%20Win%2011%20join%20the%20Win25%20successfully.png">
+
+---
+
+### 👥 Create Active Directory Users
+Step 11 — Create Enterprise User Accounts
+
+Using:
+
+Active Directory Users and Computers
+
+new enterprise user accounts were provisioned inside the domain environment.
+
+The following user attributes were configured:
+
+First Name
+Last Name
+User Logon Name (UPN)
+Pre-Windows 2000 Username
+Password Policies
+
+
 
 
 
